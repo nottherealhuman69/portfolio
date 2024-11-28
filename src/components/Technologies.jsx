@@ -1,9 +1,9 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
+import { SiCplusplus } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa"
-import { BiLogoPostgresql } from "react-icons/bi"
+import { FaPython } from "react-icons/fa"
+import { SiTensorflow } from "react-icons/si"
 
 const Technologies = () => {
   return (
@@ -14,19 +14,19 @@ const Technologies = () => {
             <RiReactjsLine className="text-7xl text-cyan-400"/>
           </div>
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <TbBrandNextjs className="text-7xl"/>
+            <FaNodeJs className="text-7xl text-green-500"/>
           </div>
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
             <SiMongodb className="text-7xl text-green-500"/>
           </div>
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaNodeJs className="text-7xl text-green-500"/>
+            <SiTensorflow className="text-7xl text-orange-400"/>
           </div>
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <DiRedis className="text-7xl text-red-700"/>
+            <FaPython className="text-7xl"/>
           </div>
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <BiLogoPostgresql className="text-7xl text-sky-700"/>
+            <SiCplusplus className="text-7xl text-sky-700"/>
           </div>
         </div>
     </div>
