@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between py-6">
+    <div id="Home" className="flex items-center justify-between py-6">
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <a href="https://www.linkedin.com/in/suryan-pinnoju-7ba258288/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
             <a href="https://leetcode.com/u/suryanpinnoju/" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
