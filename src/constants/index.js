@@ -77,7 +77,7 @@ export const PROJECTS = [
   {
     title: "Chess Guide",
     image: project5,
-    link: "http://example.com", // Replace with your project's live link if available
+    link: "https://github.com/nottherealhuman69/Chess-Guide", // Replace with your project's live link if available
     description: 
       "A chessboard recognition system using OpenCV and YOLO, capable of detecting pawn positions and converting them into a matrix representation. It simplifies analysis and visualization for chess enthusiasts and developers.",
     technologies: ["Python", "OpenCV", "YOLO", "NumPy"],
@@ -85,7 +85,7 @@ export const PROJECTS = [
 {
   title: "Neural Network From Scratch",
   image: project6, // Replace with your project image
-  link: "http://example.com", // Replace with your project's live link if available
+  link: "https://github.com/nottherealhuman69/Scratch-Model", // Replace with your project's live link if available
   description: 
     "Implemented a fully functional neural network from scratch without using libraries like TensorFlow or PyTorch, focusing on backpropagation, gradient descent, and activation functions. Designed for understanding core ML concepts.",
   technologies: ["Python", "NumPy", "Matplotlib"],
@@ -93,7 +93,7 @@ export const PROJECTS = [
 {
   title: "BotanicAI",
   image: project7, // Replace with your project image
-  link: "http://example.com", // Replace with your project's live link if available
+  link: "https://github.com/nottherealhuman69/BotanicAI", // Replace with your project's live link if available
   description: 
     "An AI-powered plant identification app that uses TensorFlow and OpenCV to classify plants based on their images. Provides detailed plant information and suggestions for care, making it a handy tool for botany enthusiasts.",
   technologies: ["TensorFlow", "OpenCV", "Python", "Flask"],
