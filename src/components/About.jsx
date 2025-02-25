@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg"
+
 import suryanHacker from "../assets/suryan_Hacker2.jpeg"
 import { ABOUT_TEXT } from "../constants"
 

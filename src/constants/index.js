@@ -6,6 +6,8 @@ import project6 from "../assets/projects/62dc0501-8dda-4bd7-9ba9-fa1a9b8c7cb4-l.
 import project7 from "../assets/projects/230223174854-best-plant-identification-apps-lead-cnnu.jpg";
 import project5 from "../assets/projects/chess_recognition.jpg";
 import project8 from "../assets/projects/lovepik-junior-high-school-students-using-laptop-computer-picture_501603934.jpg";
+import AGSvid from "../assets/AGS_Fin - Made with Clipchamp_1740426457435 (1).mp4"
+import FINLLMvid from "../assets/FINLLM_fin - Made with Clipchamp_1740425544962 (1).mp4"
 
 export const HERO_CONTENT = `AI Automation Engineer crafting self-running systems that think, learn, and do the work for you. From NLP to computer vision, I make AI your smartest employee.`;
 export const ABOUT_TEXT = `I am a passionate full-stack developer with expertise in building efficient, user-friendly web applications. Proficient in React, Node.js, MongoDB, and Express.js, I strive to create innovative solutions that address real-world challenges. My experience in AI/ML and deep learning enables me to integrate advanced technologies into applications for greater functionality. With a strong foundation in Data Structures and Algorithms (DSA), I approach problem-solving with efficiency and precision. A quick learner, I am always working on something new — whether it’s mastering emerging technologies, building projects, or improving my skills. I thrive in collaborative environments and am always eager to take on new challenges.`;
@@ -41,64 +43,81 @@ export const EXPERIENCES = [
   },
 ];
 
+// export const PROJECTS = [
+//   {
+//     title: "CryptoTracker",
+//     image: project1,
+//     link: "https://github.com/nottherealhuman69/CryptoTracker",
+//     description:
+//       "Created a user-friendly platform for tracking cryptocurrency prices, trends, and history with real-time updates and personalized access.",
+//     technologies: ["Node.js", "Express.js", "MongoDB", "EJS", "CSS"],
+//   },
+//   {
+//     title: "AGS (Autmatic Grading System)",
+//     image: project8,
+//     link: "https://github.com/nottherealhuman69/AGS",
+//     description:
+//       "Developed a platform to automate grading and provide personalized feedback on student submissions.",
+//     technologies: ["Python", "Flask", "OCR", "NLP", "HTML"],
+//   },
+//   {
+//     title: "Lost And Found Website",
+//     image: project3,
+//     link: "https://github.com/nottherealhuman69/LostFound",
+//     description:
+//       "Developing a website where users can report lost items and connect with finders through a secure chat system",
+//     technologies: ["MongoDB", "Express.js", "React", "Node.js"],
+//   },
+//   {
+//     title: "Nasty Blogging Platform",
+//     image: project4,
+//     link: "http://13.51.162.186:3000",
+//     description:
+//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+//     technologies: ["MongoDB", "Node.js", "Express.js", "AWS", "EJS"],
+//   },
+//   {
+//     title: "Chess Guide",
+//     image: project5,
+//     link: "https://github.com/nottherealhuman69/Chess-Guide", // Replace with your project's live link if available
+//     description: 
+//       "A chessboard recognition system using OpenCV and YOLO, capable of detecting pawn positions and converting them into a matrix representation. It simplifies analysis and visualization for chess enthusiasts and developers.",
+//     technologies: ["Python", "OpenCV", "YOLO", "NumPy"],
+// },
+// {
+//   title: "Neural Network From Scratch",
+//   image: project6, // Replace with your project image
+//   link: "https://github.com/nottherealhuman69/Scratch-Model", // Replace with your project's live link if available
+//   description: 
+//     "Implemented a fully functional neural network from scratch without using libraries like TensorFlow or PyTorch, focusing on backpropagation, gradient descent, and activation functions. Designed for understanding core ML concepts.",
+//   technologies: ["Python", "NumPy", "Matplotlib"],
+// },
+// {
+//   title: "BotanicAI",
+//   image: project7, // Replace with your project image
+//   link: "https://github.com/nottherealhuman69/BotanicAI", // Replace with your project's live link if available
+//   description: 
+//     "An AI-powered plant identification app that uses TensorFlow and OpenCV to classify plants based on their images. Provides detailed plant information and suggestions for care, making it a handy tool for botany enthusiasts.",
+//   technologies: ["TensorFlow", "OpenCV", "Python", "Flask"],
+// }
+// ];
 export const PROJECTS = [
   {
-    title: "CryptoTracker",
-    image: project1,
-    link: "https://github.com/nottherealhuman69/CryptoTracker",
-    description:
-      "Created a user-friendly platform for tracking cryptocurrency prices, trends, and history with real-time updates and personalized access.",
-    technologies: ["Node.js", "Express.js", "MongoDB", "EJS", "CSS"],
-  },
-  {
-    title: "AGS (Autmatic Grading System)",
-    image: project8,
+    title: "AGS (Automatic Grading System)",
+    video: AGSvid,  // Replace with actual video path
     link: "https://github.com/nottherealhuman69/AGS",
-    description:
-      "Developed a platform to automate grading and provide personalized feedback on student submissions.",
-    technologies: ["Python", "Flask", "OCR", "NLP", "HTML"],
+    description: "Automated grading platform using OCR and NLP for student submissions.",
+    technologies: ["Python", "Flask", "OCR", "NLP", "APIs"],
   },
   {
-    title: "Lost And Found Website",
-    image: project3,
-    link: "https://github.com/nottherealhuman69/LostFound",
-    description:
-      "Developing a website where users can report lost items and connect with finders through a secure chat system",
-    technologies: ["MongoDB", "Express.js", "React", "Node.js"],
-  },
-  {
-    title: "Nasty Blogging Platform",
-    image: project4,
-    link: "http://13.51.162.186:3000",
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["MongoDB", "Node.js", "Express.js", "AWS", "EJS"],
-  },
-  {
-    title: "Chess Guide",
-    image: project5,
-    link: "https://github.com/nottherealhuman69/Chess-Guide", // Replace with your project's live link if available
-    description: 
-      "A chessboard recognition system using OpenCV and YOLO, capable of detecting pawn positions and converting them into a matrix representation. It simplifies analysis and visualization for chess enthusiasts and developers.",
-    technologies: ["Python", "OpenCV", "YOLO", "NumPy"],
-},
-{
-  title: "Neural Network From Scratch",
-  image: project6, // Replace with your project image
-  link: "https://github.com/nottherealhuman69/Scratch-Model", // Replace with your project's live link if available
-  description: 
-    "Implemented a fully functional neural network from scratch without using libraries like TensorFlow or PyTorch, focusing on backpropagation, gradient descent, and activation functions. Designed for understanding core ML concepts.",
-  technologies: ["Python", "NumPy", "Matplotlib"],
-},
-{
-  title: "BotanicAI",
-  image: project7, // Replace with your project image
-  link: "https://github.com/nottherealhuman69/BotanicAI", // Replace with your project's live link if available
-  description: 
-    "An AI-powered plant identification app that uses TensorFlow and OpenCV to classify plants based on their images. Provides detailed plant information and suggestions for care, making it a handy tool for botany enthusiasts.",
-  technologies: ["TensorFlow", "OpenCV", "Python", "Flask"],
-}
+    title: "Financial AI Agent",
+    video: FINLLMvid,  // Replace with actual video path
+    link: "https://github.com/nottherealhuman69/FinancialAI",
+    description: "An AI-powered financial assistant for investment insights and market analysis.",
+    technologies: ["Python", "LangChain", "Flask", "LLMs"],
+  }
 ];
+
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
