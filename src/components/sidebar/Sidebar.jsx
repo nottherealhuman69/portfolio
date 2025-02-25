@@ -11,15 +11,16 @@ const Sidebar = () => {
     open: {
       clipPath: "circle(1200px at 50px 50px)",
       transition: {
+        delay: 0.02,
         type:"spring",
-        stiffness:20,
+        stiffness:150,
         damping:40
     },
   },
     closed: {
       clipPath: "circle(30px at 50px 50px)",
       transition: {
-        delay: 0.5,
+        delay: 0.02,
         type:"spring",
         stiffness:400,
         damping:40
