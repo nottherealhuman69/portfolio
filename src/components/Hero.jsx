@@ -1,5 +1,5 @@
 import {HERO_CONTENT} from "../constants"
-import suryanProfile from "../assets/Suryan_Suit.jpeg"
+import suryanProfile from "../assets/King_shit.png"
 
 
 const Hero = () => {
