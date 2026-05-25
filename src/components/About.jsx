@@ -1,11 +1,13 @@
 
 import suryanHacker from "../assets/suryan_Hacker2.jpeg"
 import { ABOUT_TEXT } from "../constants"
+import '@fontsource/inter'
+import '@fontsource/inter/400-italic'
 
 const About = () => {
   return (
     <div id="About" className="border-b border-neutral-900 pb-4">
-        <h2 className="my-20 text-center text-4xl">
+        <h2 className="font-bold my-20 text-center text-4xl">
             About
             <span className="text-neutral-500"> Me</span>
         </h2>
@@ -17,7 +19,7 @@ const About = () => {
             </div>
             <div className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                        <p className="font-inter my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
                     </div>
             </div>
         </div>

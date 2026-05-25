@@ -8,9 +8,24 @@ const Hero = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
-                    <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Suryan Pinnoju</h1>
+                    <h1 className="pb-16 text-6xl font-inter italic tracking-tight lg:mt-16 lg:text-8xl">Suryan Pinnoju</h1>
                     <span
-                    className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-6xl tracking-tight text-transparent leading-[1.3]">AI Engineer</span>
+                        id="ai-engineer"
+                        className="bg-clip-text text-6xl tracking-tight text-transparent leading-[1.3] cursor-default select-none"
+                        style={{
+                            backgroundImage: 'linear-gradient(90deg, #f9a8d4, #64748b, #a855f7)',
+                            backgroundSize: '200% auto',
+                            transition: 'background-position 0.4s ease',
+                        }}
+                        onMouseEnter={e => {
+                            e.currentTarget.style.backgroundPosition = 'right center';
+                        }}
+                        onMouseLeave={e => {
+                            e.currentTarget.style.backgroundPosition = 'left center';
+                        }}
+                        >
+                        AI Engineer
+                        </span>
                     <p className="my-2 max-w-xl py-6 font-light tracking-tighter whitespace-pre-line text-2xl">{HERO_CONTENT}</p>
                 </div>
             </div>
