@@ -14,7 +14,7 @@ import Segmentation from "../assets/Segmentation.mp4"
 
 
 export const HERO_CONTENT = `AI Automation Engineer crafting self-running systems that think, learn, and do the work for you. From NLP to computer vision, I make AI your smartest employee.`;
-export const ABOUT_TEXT = `I am a passionate full-stack developer with expertise in building efficient, user-friendly web applications. Proficient in React, Node.js, MongoDB, and Express.js, I strive to create innovative solutions that address real-world challenges. My experience in AI/ML and deep learning enables me to integrate advanced technologies into applications for greater functionality. With a strong foundation in Data Structures and Algorithms (DSA), I approach problem-solving with efficiency and precision. A quick learner, I am always working on something new — whether it’s mastering emerging technologies, building projects, or improving my skills. I thrive in collaborative environments and am always eager to take on new challenges.`;
+export const ABOUT_TEXT = `I am an AI Engineer and Computer Vision enthusiast with experience developing deep learning solutions for real-world perception problems. My work spans object detection, multi-object tracking, sensor fusion, and reinforcement learning, using frameworks such as PyTorch, Ultralytics, MMDetection, and Transformers. I enjoy building end-to-end AI pipelines, from data preparation and model training to evaluation and deployment, with a focus on creating robust, production-ready systems. I am a quick learner who enjoys tackling challenging problems and continuously exploring new technologies in machine learning and computer vision.`;
 
 export const EXPERIENCES = [
   {
