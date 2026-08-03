@@ -8,6 +8,10 @@ import project5 from "../assets/projects/chess_recognition.jpg";
 import project8 from "../assets/projects/lovepik-junior-high-school-students-using-laptop-computer-picture_501603934.jpg";
 import AGSvid from "../assets/AGS_Fin - Made with Clipchamp_1740426457435 (1).mp4"
 import FINLLMvid from "../assets/FINLLM_fin - Made with Clipchamp_1740425544962 (1).mp4"
+import ObjectTrack from "../assets/Object_Tracking.mp4"
+import SensorFusion from "../assets/Sensor_Fusion.mp4"
+import Segmentation from "../assets/Segmentation.mp4"
+
 
 export const HERO_CONTENT = `AI Automation Engineer crafting self-running systems that think, learn, and do the work for you. From NLP to computer vision, I make AI your smartest employee.`;
 export const ABOUT_TEXT = `I am a passionate full-stack developer with expertise in building efficient, user-friendly web applications. Proficient in React, Node.js, MongoDB, and Express.js, I strive to create innovative solutions that address real-world challenges. My experience in AI/ML and deep learning enables me to integrate advanced technologies into applications for greater functionality. With a strong foundation in Data Structures and Algorithms (DSA), I approach problem-solving with efficiency and precision. A quick learner, I am always working on something new — whether it’s mastering emerging technologies, building projects, or improving my skills. I thrive in collaborative environments and am always eager to take on new challenges.`;
@@ -101,22 +105,47 @@ export const EXPERIENCES = [
 //   technologies: ["TensorFlow", "OpenCV", "Python", "Flask"],
 // }
 // ];
+// export const PROJECTS = [
+//   {
+//     title: "AGS (Automatic Grading System)",
+//     video: AGSvid,  // Replace with actual video path
+//     link: "https://github.com/nottherealhuman69/AGS",
+//     description: "Automated grading platform using OCR and NLP for student submissions.",
+//     technologies: ["Python", "Flask", "OCR", "NLP", "APIs"],
+//   },
+//   {
+//     title: "Financial AI Agent",
+//     video: FINLLMvid,  // Replace with actual video path
+//     link: "https://github.com/nottherealhuman69/FinancialAI",
+//     description: "An AI-powered financial assistant for investment insights and market analysis.",
+//     technologies: ["Python", "LangChain", "Flask", "LLMs"],
+//   }
+// ];
+
 export const PROJECTS = [
   {
-    title: "AGS (Automatic Grading System)",
-    video: AGSvid,  // Replace with actual video path
+    title: "Sensor Fusion for LiDAR-Camera Systems",
+    video: SensorFusion,  // Replace with actual video path
     link: "https://github.com/nottherealhuman69/AGS",
-    description: "Automated grading platform using OCR and NLP for student submissions.",
-    technologies: ["Python", "Flask", "OCR", "NLP", "APIs"],
+    description: "Designed a LiDAR-camera sensor fusion pipeline using KITTI calibration parameters to project 3D point clouds into image space and fuse them with semantic segmentation outputs for enhanced environmental perception.",
+    technologies: ["Python", "Pytorch", "Open3D", "Sensor Fusion", "LiDAR"],
   },
   {
-    title: "Financial AI Agent",
-    video: FINLLMvid,  // Replace with actual video path
-    link: "https://github.com/nottherealhuman69/FinancialAI",
-    description: "An AI-powered financial assistant for investment insights and market analysis.",
-    technologies: ["Python", "LangChain", "Flask", "LLMs"],
+    title: "Multi Object Tracking System",
+    video: ObjectTrack,  // Replace with actual video path
+    link: "https://github.com/nottherealhuman69/AGS",
+    description: "A multi-object tracking system that uses yolo26 and bytetrack achieving a 64.5% MOTA and a 76.1 IDF1 score on the KITTI dataset.",
+    technologies: ["Python", "Pytorch", "Multi-Object Tracking", "KITTI", "ByteTrack"],
+  },
+  {
+    title: "Semantic Scene Segmentation",
+    video: Segmentation,  // Replace with actual video path
+    link: "https://github.com/nottherealhuman69/AGS",
+    description: "Performed semantic scene segmentation using a pretrained SegFormer (MiT-B3) model to generate pixel-wise class labels, enabling semantic understanding",
+    technologies: ["Python", "Pytorch", "Segmentation", "SegFormer"],
   }
 ];
+
 
 
 export const CONTACT = {

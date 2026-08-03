@@ -6,6 +6,10 @@ import { FaPython } from "react-icons/fa";
 import { SiTensorflow } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import { motion } from "framer-motion";
+import {SiPytorch} from "react-icons/si"
+import {SiOpen3D} from "react-icons/si"
+import {FaMediumM} from "react-icons/fa"
+
 
 const Technologies = () => {
   return (
@@ -13,12 +17,12 @@ const Technologies = () => {
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-8">
         {[
-          { Icon: RiReactjsLine, name: "React.js", color: "text-cyan-400" },
-          { Icon: FaNodeJs, name: "Node.js", color: "text-green-500" },
+          { Icon: SiOpen3D, name: "Open3D", color: "text-cyan-400" },
+          { Icon: FaMediumM, name: "MMDetection", color: "text-green-500" },
           { Icon: SiMongodb, name: "MongoDB", color: "text-green-500" },
           { Icon: SiTensorflow, name: "TensorFlow", color: "text-orange-400" },
           { Icon: FaPython, name: "Python", color: "text-yellow-500" },
-          { Icon: SiCplusplus, name: "C++", color: "text-sky-700" },
+          { Icon: SiPytorch, name: "Pytorch", color: "text-sky-700" },
           { Icon: SiFlask, name: "Flask", color: "text-red-600" },
         ].map(({ Icon, name, color }) => (
           <motion.div
