@@ -17,13 +17,13 @@ const Technologies = () => {
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-8">
         {[
-          { Icon: SiOpen3D, name: "Open3D", color: "text-cyan-400" },
-          { Icon: FaMediumM, name: "MMDetection", color: "text-green-500" },
-          { Icon: SiMongodb, name: "MongoDB", color: "text-green-500" },
-          { Icon: SiTensorflow, name: "TensorFlow", color: "text-orange-400" },
-          { Icon: FaPython, name: "Python", color: "text-yellow-500" },
-          { Icon: SiPytorch, name: "Pytorch", color: "text-sky-700" },
           { Icon: SiFlask, name: "Flask", color: "text-red-600" },
+          { Icon: FaMediumM, name: "MMDetection", color: "text-green-500" },
+          { Icon: SiPytorch, name: "Pytorch", color: "text-sky-700" },
+          { Icon: FaPython, name: "Python", color: "text-yellow-500" },
+          { Icon: SiTensorflow, name: "TensorFlow", color: "text-orange-400" },
+          { Icon: SiOpen3D, name: "Open3D", color: "text-cyan-400" },
+          { Icon: SiMongodb, name: "MongoDB", color: "text-green-500" },
         ].map(({ Icon, name, color }) => (
           <motion.div
             key={name}
