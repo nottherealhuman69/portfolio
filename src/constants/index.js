@@ -126,21 +126,21 @@ export const PROJECTS = [
   {
     title: "Sensor Fusion for LiDAR-Camera Systems",
     video: SensorFusion,  // Replace with actual video path
-    link: "https://github.com/nottherealhuman69/AGS",
+    link: "https://github.com/nottherealhuman69",
     description: "Designed a LiDAR-camera sensor fusion pipeline using KITTI calibration parameters to project 3D point clouds into image space and fuse them with semantic segmentation outputs for enhanced environmental perception.",
     technologies: ["Python", "Pytorch", "Open3D", "Sensor Fusion", "LiDAR"],
   },
   {
     title: "Multi Object Tracking System",
     video: ObjectTrack,  // Replace with actual video path
-    link: "https://github.com/nottherealhuman69/AGS",
+    link: "https://github.com/nottherealhuman69",
     description: "A multi-object tracking system that uses yolo26 and bytetrack achieving a 64.5% MOTA and a 76.1 IDF1 score on the KITTI dataset.",
     technologies: ["Python", "Pytorch", "Multi-Object Tracking", "KITTI", "ByteTrack"],
   },
   {
     title: "Semantic Scene Segmentation",
     video: Segmentation,  // Replace with actual video path
-    link: "https://github.com/nottherealhuman69/AGS",
+    link: "https://github.com/nottherealhuman69",
     description: "Performed semantic scene segmentation using a pretrained SegFormer (MiT-B3) model to generate pixel-wise class labels, enabling semantic understanding",
     technologies: ["Python", "Pytorch", "Segmentation", "SegFormer"],
   }
