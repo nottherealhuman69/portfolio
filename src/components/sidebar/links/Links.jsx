@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 
 const Links = () => {
-  const items = ["Home", "About", "Technologies", "Projects"];
+  const items = ["Home", "Projects", "Technologies", "About" ];
 
   return (
     <div className="links">
